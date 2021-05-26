@@ -1,0 +1,555 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro for Workstations; OS build 19042.985; Version 2009; 64bit' Language: 'es' Physical Memory: 12168 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Programas\UnityHub\Editor\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Asus/Documents/proyectosUnity/VRcard
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56351
+Successfully changed project path to: C:/Users/Asus/Documents/proyectosUnity/VRcard
+C:/Users/Asus/Documents/proyectosUnity/VRcard
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 313.99 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 4.74 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path D:/Programas/UnityHub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Asus/Documents/proyectosUnity/VRcard/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   27.21.14.6647
+Initialize mono
+Mono path[0] = 'D:/Programas/UnityHub/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programas/UnityHub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Programas/UnityHub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programas/UnityHub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004742 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 89.20 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.38 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.573 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.017358 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.39 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Asus\Documents\proyectosUnity\VRcard\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Asus\Documents\proyectosUnity\VRcard\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.599 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.41 ms.
+Unloading 1418 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 1834.
+Total: 3.595800 ms (FindLiveObjects: 0.360600 ms CreateObjectMapping: 0.105800 ms MarkObjects: 2.908400 ms  DeleteObjects: 0.218100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/m31_teleporter_FX/01_FX_texture/FxT_tlpt_alpha2.png
+  artifactKey: Guid(0dd1f870f8bc37d4ca562aa69b919e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX/01_FX_texture/FxT_tlpt_alpha2.png using Guid(0dd1f870f8bc37d4ca562aa69b919e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa2003ca0e037bf6c88de1f04810517') in 0.414324 seconds
+  Import took 0.420363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/m31_teleporter_FX/01_FX_texture/FxT_scar_blue.png
+  artifactKey: Guid(23af15aeac2dc5144b152b39dfc73403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX/01_FX_texture/FxT_scar_blue.png using Guid(23af15aeac2dc5144b152b39dfc73403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9e48e5c4208ccf0c87d0a81133b750') in 0.025092 seconds
+  Import took 0.033788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000673 seconds.
+  path: Assets/m31_teleporter_FX/teleporter_scene.unity
+  artifactKey: Guid(dff7161d1cd68da4f8711ffc76549a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX/teleporter_scene.unity using Guid(dff7161d1cd68da4f8711ffc76549a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e69b3697d54fb84ff5251adda99eb1') in 0.012569 seconds
+  Import took 0.019728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/m31_teleporter_FX/02_FX_material/FxM_empty_blue.mat
+  artifactKey: Guid(0eaddef61dcbca64a9c42caecbb9d4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX/02_FX_material/FxM_empty_blue.mat using Guid(0eaddef61dcbca64a9c42caecbb9d4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0f7f5127582abe233fb9110702ff0d') in 0.422122 seconds
+  Import took 0.431731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000892 seconds.
+  path: Assets/m31_teleporter_FX/02_FX_material/FxM_tlpt_alpha.mat
+  artifactKey: Guid(07b84a92a5931804e889880d633f8523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX/02_FX_material/FxM_tlpt_alpha.mat using Guid(07b84a92a5931804e889880d633f8523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b89c5bb67e7ad051588c5f060e729d9') in 0.046598 seconds
+  Import took 0.054074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001922 seconds.
+  path: Assets/m31_teleporter_FX
+  artifactKey: Guid(c0eaec87d91bc3a4f89fd0c7b6be2d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX using Guid(c0eaec87d91bc3a4f89fd0c7b6be2d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65af44b5a9daa5b23ba640bcb83df068') in 0.012102 seconds
+  Import took 0.024159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000735 seconds.
+  path: Assets/m31_teleporter_FX/02_FX_material/FxM_scar_blue_2x.mat
+  artifactKey: Guid(35b7af9a5a587f94590f93d149df76b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX/02_FX_material/FxM_scar_blue_2x.mat using Guid(35b7af9a5a587f94590f93d149df76b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ecee6648c4f333f962d99c11ba883a5') in 0.020602 seconds
+  Import took 0.025781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/m31_teleporter_FX/01_FX_texture/FxT_sharpline_blue.png
+  artifactKey: Guid(f54b37762c9354b4db529b251b81dd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX/01_FX_texture/FxT_sharpline_blue.png using Guid(f54b37762c9354b4db529b251b81dd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68f0c256ce83161c7f8f2c4a7ae74ac') in 0.020250 seconds
+  Import took 0.025635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000542 seconds.
+  path: Assets/m31_teleporter_FX/01_FX_texture/FxT_empty_blue.png
+  artifactKey: Guid(939b1839757740a41942fbd7a1ccb170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX/01_FX_texture/FxT_empty_blue.png using Guid(939b1839757740a41942fbd7a1ccb170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b8bf24fa672f278d5ddca7eba02600') in 0.012877 seconds
+  Import took 0.018027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/m31_teleporter_FX/01_FX_texture
+  artifactKey: Guid(325f3c8b75558f74495122d6c0748d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX/01_FX_texture using Guid(325f3c8b75558f74495122d6c0748d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e05f0446a2a879bf24a8c2790500dd0') in 0.003854 seconds
+  Import took 0.008209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/m31_teleporter_FX/02_FX_material
+  artifactKey: Guid(a9afa74125f506a418e705a9c27bf060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX/02_FX_material using Guid(a9afa74125f506a418e705a9c27bf060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfa32c0f1d6824b3e1de3f521c5b4a1') in 0.005097 seconds
+  Import took 0.009746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/m31_teleporter_FX/02_FX_material/FxM_sharpline_blue.mat
+  artifactKey: Guid(7123884b5d1b390448667d9c0b6f2f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX/02_FX_material/FxM_sharpline_blue.mat using Guid(7123884b5d1b390448667d9c0b6f2f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d4ebc409f8903b3bcf4720d5913d8b') in 0.020952 seconds
+  Import took 0.042385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.314385 seconds.
+  path: Assets/m31_teleporter_FX/03_FX_object
+  artifactKey: Guid(0dfe6a5ef9c6d9d47a03da2d9bddb49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX/03_FX_object using Guid(0dfe6a5ef9c6d9d47a03da2d9bddb49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e04ec4e9c1c16f500a341525eaa702') in 0.007208 seconds
+  Import took 0.013884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.145179 seconds.
+  path: Assets/m31_teleporter_FX/03_FX_object/FxObject_cylinder_short.FBX
+  artifactKey: Guid(a646e6dc7d252544ca5c5429cb47d3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX/03_FX_object/FxObject_cylinder_short.FBX using Guid(a646e6dc7d252544ca5c5429cb47d3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd4cc628d71ece9212bb6fcc2357581') in 0.420403 seconds
+  Import took 0.435786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001082 seconds.
+  path: Assets/m31_teleporter_FX/03_FX_object/FxObject_m31_tlpt_chain.FBX
+  artifactKey: Guid(b9dc1b3e8f038764ebbf50dd1c7610a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX/03_FX_object/FxObject_m31_tlpt_chain.FBX using Guid(b9dc1b3e8f038764ebbf50dd1c7610a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74b262ced2364dd44ece4b0d96ddb9c') in 0.102280 seconds
+  Import took 0.117040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.579747 seconds.
+  path: Assets/m31_teleporter_FX/03_FX_object/Materials
+  artifactKey: Guid(793442bf6986e3548b6a088750f64b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX/03_FX_object/Materials using Guid(793442bf6986e3548b6a088750f64b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a3a96ea5d8b29b021a5250a42bb959') in 0.007452 seconds
+  Import took 0.013435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014860 seconds.
+  path: Assets/m31_teleporter_FX/03_FX_object/Materials/Fx_Object.mat
+  artifactKey: Guid(6ee701a1be4388f4e9a9ccd4e54e8c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX/03_FX_object/Materials/Fx_Object.mat using Guid(6ee701a1be4388f4e9a9ccd4e54e8c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed6e020e9880bc0e2ea8efcc9b88108') in 0.026638 seconds
+  Import took 0.035638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000744 seconds.
+  path: Assets/m31_teleporter_FX/03_FX_object/Materials/telepoter.mat
+  artifactKey: Guid(c36eacbfb7a76fc4f973ff968833319c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX/03_FX_object/Materials/telepoter.mat using Guid(c36eacbfb7a76fc4f973ff968833319c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ae574f4eb95fe90b48ceca05581a5e') in 0.023489 seconds
+  Import took 0.034855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005839 seconds.
+  path: Assets/m31_teleporter_FX/03_FX_object/Materials/telepoter.mat
+  artifactKey: Guid(c36eacbfb7a76fc4f973ff968833319c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX/03_FX_object/Materials/telepoter.mat using Guid(c36eacbfb7a76fc4f973ff968833319c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ae574f4eb95fe90b48ceca05581a5e') in 0.020149 seconds
+  Import took 0.028048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.198931 seconds.
+  path: Assets/m31_teleporter_FX/04_FX_prefab
+  artifactKey: Guid(ef55f48f3195d304ea879aeb292c9141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX/04_FX_prefab using Guid(ef55f48f3195d304ea879aeb292c9141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21675da4fb0103979f8bd0fcde7b3a9d') in 0.004140 seconds
+  Import took 0.009358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092516 seconds.
+  path: Assets/m31_teleporter_FX/04_FX_prefab/teleporter.prefab
+  artifactKey: Guid(856ddc11c4d1bd54885aa67f69f72cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m31_teleporter_FX/04_FX_prefab/teleporter.prefab using Guid(856ddc11c4d1bd54885aa67f69f72cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c13ea756199f9094621481ccc38c77') in 0.042760 seconds
+  Import took 0.051366 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015948 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.27 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.38 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Asus\Documents\proyectosUnity\VRcard\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Asus\Documents\proyectosUnity\VRcard\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.268 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 8.54 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 1.17 ms.
+Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.5 MB.
+System memory in use after: 69.6 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 1885.
+Total: 10.611200 ms (FindLiveObjects: 0.681700 ms CreateObjectMapping: 0.219500 ms MarkObjects: 9.215000 ms  DeleteObjects: 0.487900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007960 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.22 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Asus\Documents\proyectosUnity\VRcard\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Asus\Documents\proyectosUnity\VRcard\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.173 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.75 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.53 ms.
+Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.6 MB.
+System memory in use after: 69.6 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 1889.
+Total: 5.395700 ms (FindLiveObjects: 0.610100 ms CreateObjectMapping: 0.102900 ms MarkObjects: 4.263000 ms  DeleteObjects: 0.415100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010054 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.33 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Asus\Documents\proyectosUnity\VRcard\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Asus\Documents\proyectosUnity\VRcard\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.183 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.96 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.31 ms.
+Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.6 MB.
+System memory in use after: 69.7 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 1893.
+Total: 2.582700 ms (FindLiveObjects: 0.304300 ms CreateObjectMapping: 0.077000 ms MarkObjects: 2.043000 ms  DeleteObjects: 0.155700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011036 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.93 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.41 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Asus\Documents\proyectosUnity\VRcard\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Asus\Documents\proyectosUnity\VRcard\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.960 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.33 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.52 ms.
+Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.6 MB.
+System memory in use after: 69.7 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 1898.
+Total: 4.278500 ms (FindLiveObjects: 0.468900 ms CreateObjectMapping: 0.094500 ms MarkObjects: 3.451200 ms  DeleteObjects: 0.259800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1210.638163 seconds.
+  path: Assets/Teleportation Pad
+  artifactKey: Guid(62d518b0cc28c8d4a92524cc80842224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teleportation Pad using Guid(62d518b0cc28c8d4a92524cc80842224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f26d8b36794655cb0afe70a395d1f4') in 0.008349 seconds
+  Import took 0.013574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007221 seconds.
+  path: Assets/Teleportation Pad
+  artifactKey: Guid(62d518b0cc28c8d4a92524cc80842224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teleportation Pad using Guid(62d518b0cc28c8d4a92524cc80842224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f26d8b36794655cb0afe70a395d1f4') in 0.005756 seconds
+  Import took 0.011089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.653056 seconds.
+  path: Assets/Teleportation Pad/Prefabs
+  artifactKey: Guid(175b60bc8f9a3634bb5595154a714fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teleportation Pad/Prefabs using Guid(175b60bc8f9a3634bb5595154a714fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ab3659e5e2e3e0e9e221ce99b639cb') in 0.019894 seconds
+  Import took 0.024445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069306 seconds.
+  path: Assets/Teleportation Pad/Prefabs/Teleporter Pad A.prefab
+  artifactKey: Guid(60ea8a8ee79fc564294d0a35f8b0ae4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teleportation Pad/Prefabs/Teleporter Pad A.prefab using Guid(60ea8a8ee79fc564294d0a35f8b0ae4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04431581528f75955661164bed578bf2') in 0.826393 seconds
+  Import took 0.840751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001029 seconds.
+  path: Assets/Teleportation Pad/Prefabs/Teleporter Pad F.prefab
+  artifactKey: Guid(8fc4936355b205e4db6ef06a2eb4ee5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teleportation Pad/Prefabs/Teleporter Pad F.prefab using Guid(8fc4936355b205e4db6ef06a2eb4ee5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f53a5d63b4024bd136cc4603a04f577') in 0.151911 seconds
+  Import took 0.163618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Teleportation Pad/Prefabs/Teleporter Pad D.prefab
+  artifactKey: Guid(ddd95aa4817356645979f7a136313957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teleportation Pad/Prefabs/Teleporter Pad D.prefab using Guid(ddd95aa4817356645979f7a136313957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74cc41697c3fd327b7eefe1c19e3aff9') in 0.240892 seconds
+  Import took 0.250893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000852 seconds.
+  path: Assets/Teleportation Pad/Prefabs/Teleporter Pad E.prefab
+  artifactKey: Guid(9966aa3c008742041a74ffbeb93083cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teleportation Pad/Prefabs/Teleporter Pad E.prefab using Guid(9966aa3c008742041a74ffbeb93083cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9ad6b2dfaf3820d58bc543a4a3689e') in 0.211088 seconds
+  Import took 0.219768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Teleportation Pad/Prefabs/Teleporter Pad C.prefab
+  artifactKey: Guid(b46e0920d9667ca45b59dc5301c885aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teleportation Pad/Prefabs/Teleporter Pad C.prefab using Guid(b46e0920d9667ca45b59dc5301c885aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18925d299ca3e9ba00e2d75b00e1600e') in 0.124965 seconds
+  Import took 0.133449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Teleportation Pad/Prefabs/Teleporter Pad B.prefab
+  artifactKey: Guid(931a75669ffc1214f93c0d969895e8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teleportation Pad/Prefabs/Teleporter Pad B.prefab using Guid(931a75669ffc1214f93c0d969895e8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f523622234932cccd2af957b248e2e') in 0.132144 seconds
+  Import took 0.140050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.160018 seconds.
+  path: Assets/Teleportation Pad/Materials/Shockwave.mat
+  artifactKey: Guid(f2bffbeb094e1415586c0fdcaa089b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Teleportation Pad/Materials/Shockwave.mat using Guid(f2bffbeb094e1415586c0fdcaa089b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab2403fb606184c2a2b5bf21ce6ca8e') in 0.103378 seconds
+  Import took 0.107965 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010824 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.41 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Asus\Documents\proyectosUnity\VRcard\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Asus\Documents\proyectosUnity\VRcard\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.981 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.84 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.26 ms.
+Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.7 MB.
+System memory in use after: 70.8 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 1906.
+Total: 3.330200 ms (FindLiveObjects: 0.222500 ms CreateObjectMapping: 0.074000 ms MarkObjects: 2.904600 ms  DeleteObjects: 0.126700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020846 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.46 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.48 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Asus\Documents\proyectosUnity\VRcard\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Asus\Documents\proyectosUnity\VRcard\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.471 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.28 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.58 ms.
+Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.7 MB.
+System memory in use after: 70.8 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 1910.
+Total: 6.710200 ms (FindLiveObjects: 0.446100 ms CreateObjectMapping: 0.141400 ms MarkObjects: 5.989800 ms  DeleteObjects: 0.130400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 363.000720 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(3c63dc0c6cfe922459583309944d4be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(3c63dc0c6cfe922459583309944d4be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786715c519c59416c85bf820dc7aa417') in 0.013762 seconds
+  Import took 0.020078 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 25.98 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.57 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.1 MB.
+System memory in use after: 44.2 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1910.
+Total: 6.480600 ms (FindLiveObjects: 0.303600 ms CreateObjectMapping: 0.101000 ms MarkObjects: 5.951200 ms  DeleteObjects: 0.121500 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 34.08 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.34 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.1 MB.
+System memory in use after: 44.2 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1910.
+Total: 8.503700 ms (FindLiveObjects: 0.522200 ms CreateObjectMapping: 0.124400 ms MarkObjects: 7.733400 ms  DeleteObjects: 0.120900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
